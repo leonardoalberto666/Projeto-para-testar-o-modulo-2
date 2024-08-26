@@ -3,13 +3,45 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+header{
+padding-left: 10px;
+padding-right: 10px;
+}
+
 header > h1{
     margin:auto;
     text-align: center;
+    font-variant: small-caps;
+    font-size: 50px;
+    color: white;
+}
+
+header > p{
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+nav{
+    padding-bottom: 10px;
+}
+
+a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    background-color: #a7dbab;
+    color: black;
 }
 
 header{
-    background-color: #309292;
+    background-color: #512b52;
     margin-bottom: 120px;
     padding-top: 30px;
 }
@@ -138,10 +170,32 @@ div#div3 > p{
 
 }
 
+div#div4{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    columns: 2;
+    column-gap: 55px;
+    text-align: justify;
+    hyphens: auto;
+
+
+}
+
 
 
 
 
 footer{
-    background-color: #046d8b ;
+    background-color: #512b52 ;
+    color: white;
+}
+
+ul{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    columns: 2;
+    width: 70%;
 }
