@@ -107,7 +107,7 @@ div#img1{
     background-size: 800px auto;
 
     border-radius: 5px;
-
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.774);
 }
 
 div#div2 > p{
@@ -149,7 +149,7 @@ div#img2{
     background-size: 800px auto;
 
     border-radius: 5px;
-
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.774);
 }
 
 div#div3 > p{
