@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+margin: 0;
+padding: 0;
+background-color: #3CA6A6;
+
+}
+
+header{
+background-color: #026773;
+height: 80px;
+padding-top: 20px;
+border-radius: 0px 0px 15px 15px;
+}
+
+header > h1{
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+color: white;
+
+
+font-family: "Lato", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+section{
+    width: 1000px;
+    height: 1300px;
+    margin: auto;
+    background-color: #F2E3D5;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+p#nome{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 23px;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+}
+
+div#container1{
+    width: 750px;
+    height: 220px;
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+div#ufpr{
+    background-image: url('ufpr.jpg');
+    height: 200px;
+    width: 200px;
+    background-size: 400px auto;
+    background-position: center center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+}
+
+div#tads{
+    background-image: url('tads.jfif');
+    height: 200px;
+    width: 200px;
+    background-size: 200px auto;
+
+    position: absolute;
+    left: 275px;
+    top: 0;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+}
+
+div#ti{
+    background-image: url('ti.jpg');
+    height: 200px;
+    width: 200px;
+    background-size: 270px auto;
+    background-position: center center;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+}
+
+div#tec{
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    background-image: url('tec.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    box-shadow: inset 10px 10px 15px 0px rgba(0, 0, 0, 0.562);;
+
+}
+
+div#tec > p{
+    color: white;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+
+}
+
+div#container2{
+    background-color: transparent;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+div#html{
+    height: 200px;
+    width: 200px;
+    background-image: url('html.webp');
+    background-size: 200px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+div#css{
+    height: 200px;
+    width: 200px;
+    background-image: url('css.webp');
+    background-size: auto 200px;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div#js{
+    height: 200px;
+    width: 200px;
+    background-image: url('js.png');
+    background-size: auto 250px;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#word{
+    height: 200px;
+    width: 200px;
+    background-image: url('word.avif');
+    background-size: auto 250px;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div#excel{
+    height: 200px;
+    width: 200px;
+    background-image: url('excel.jpeg');
+    background-size: auto 200px;
+    background-position: center center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.342);
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+footer{
+background-color: black;
+color:white;
+}
+
+footer > p{
+    margin: 0;
+    font-size: 15px;
+}
+
+span{
+    color: #00818f;
+}
