@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+div#divform{
+    background-color: #0085A1;
+    box-shadow: inset 2px 2px 15px 0px rgba(0, 0, 0, 0.511);
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Lora;
+}
+
+h2#titulo_form{
+    margin-bottom: 20px;
+}
+
+div#form_d1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.form_divs{
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.label{
+    width: 140px;
+}
+
+label{
+    font-weight: bolder;
+}
+label#rotulo_do_texto, textarea#textarea, input#submit{
+    display: block;
+}
+
+input#submit{
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;;
+}
+
+textarea#textarea{
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+input#nome, input#email, input#numero, textarea{
+    border-radius: 5px;;
+}
